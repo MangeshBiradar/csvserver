@@ -1,0 +1,2 @@
+docker build -t csvserver-new .
+docker run -dit -p 9393:9300 -e CSVSERVER_BORDER=Orange csvserver-new
